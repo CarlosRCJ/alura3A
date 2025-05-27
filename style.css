@@ -1,25 +1,26 @@
-body {
-  background-color: #0a2f66; /* azul escuro */
-  color: #f0d67b; /* dourado claro para textos ok */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Modal customização para melhorar contraste e espaçamento */
+
+.modal-content {
+  background-color: #0a1f44; /* azul mais escuro para fundo da modal, mantendo contraste */
+  color: #f0d67b; /* texto dourado claro */
+  padding: 20px; /* espaço interno para não ficar colado nas bordas */
 }
 
-header, footer {
-  background-color: #0a1f44; /* azul mais escuro para contraste */
-  color: #f0d67b;
-  padding: 20px 0;
+.modal-body img {
+  max-width: 100%;  /* evita ultrapassar a largura da modal */
+  height: auto;
+  display: block;
+  margin-bottom: 1rem; /* espaço entre imagem e links */
 }
 
-a {
-  color: #f0d67b;
-  text-decoration: none;
+.modal-body a {
+  color: #f0d67b; /* mantém o dourado nos links */
+  display: inline-block;
+  margin-top: 0.5rem; /* margem superior para separar dos elementos anteriores */
 }
 
-a:hover {
+.modal-body a:hover {
   color: #d4af37; /* dourado mais intenso no hover */
 }
 
-.badge.bg-secondary {
-  background-color: #d4af37 !important; /* dourado para badges */
-  color: #0a2f66;
-}
+/* Se o texto dos links estiver muito próximo da imagem, essa margem garante espaçamento */
