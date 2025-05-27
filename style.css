@@ -1,26 +1,23 @@
-/* Modal customização para melhorar contraste e espaçamento */
-
 .modal-content {
-  background-color: #0a1f44; /* azul mais escuro para fundo da modal, mantendo contraste */
-  color: #f0d67b; /* texto dourado claro */
-  padding: 20px; /* espaço interno para não ficar colado nas bordas */
+  background-color: #0a1f44;
+  color: #8c6b0a; /* dourado escuro forte para texto */
+  padding: 20px;
 }
 
 .modal-body img {
-  max-width: 100%;  /* evita ultrapassar a largura da modal */
+  max-width: 100%;
   height: auto;
   display: block;
-  margin-bottom: 1rem; /* espaço entre imagem e links */
+  margin-bottom: 1rem;
 }
 
 .modal-body a {
-  color: #f0d67b; /* mantém o dourado nos links */
+  color: #8c6b0a; /* dourado escuro forte para links */
   display: inline-block;
-  margin-top: 0.5rem; /* margem superior para separar dos elementos anteriores */
+  margin-top: 0.5rem;
+  transition: color 0.3s ease;
 }
 
 .modal-body a:hover {
-  color: #d4af37; /* dourado mais intenso no hover */
+  color: #6b5207; /* dourado mais escuro no hover */
 }
-
-/* Se o texto dos links estiver muito próximo da imagem, essa margem garante espaçamento */
